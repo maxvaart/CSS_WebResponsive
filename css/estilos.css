@@ -1,0 +1,142 @@
+body{
+    background-color: darkred;
+    color: aliceblue; 
+    width: 100%;
+    height: 100%;
+
+}
+.cinema-body{
+    background-image: url(../img/cine.jpg);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+}
+nav{
+    height: 10%;
+    background-color: darkred;
+     opacity: 0.95;
+}
+.logo{
+    text-align: left;
+    height: 95%;
+}
+.container{
+    margin-top: 64px; 
+}
+.jumbotron{
+    background-image: url(../img/cine2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    padding-top: 2%;
+    padding-left: 2%;
+    height: auto;
+    width: auto;
+}
+.titulo-cartelera{
+    min-height: 45px;
+    background-color: darkred;
+    padding-top: 1%;
+    opacity: 0.95;
+}
+.movies-row{
+    background-color:gray;
+    opacity: 0.8;
+    min-height: 350px;
+    padding: 0px 15px;
+}
+.movies-column{
+    margin-top: 5px;
+    background-color: darkgray;
+    min-height: 330px;
+    border: 1px;
+    border-style: dashed;
+    border-color: white;
+}
+@media (max-width:770px){
+    .right-columm{
+        display: none;
+    }
+    h2{
+        font-size: 22px;
+    }
+    .titulo-cartelera{
+        font-size: 15px;
+    }
+    .jumbotros{
+        min-height: 400px;
+    }
+    .jumbotron-img{
+        margin-top: 20px;
+    }
+}
+
+.left-column{
+    border-right: 1px;
+    border-right-style: dashed;
+    border-color: darkgrey;
+    }
+.welcome-title{
+    color: white;
+    
+}
+.jumbotron-img{
+    text-align: left;
+}
+.jumbotron-text{
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+}
+.redes-sociales{
+    margin-top: 20px;
+}
+.titulo-text{
+    font-size: 18px;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-bottom-color: darkgrey;
+    border-top-color: darkgrey;
+}
+.movie-title{
+    color: white;
+}
+.img-movies{
+    height: 230px;
+    width: auto;
+    margin-top: 30px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.services-text{
+    margin: 3px;
+    font-size: 17px;
+}
+.user_data{
+    margin-top: 10px;
+    font-size: 18px;
+    color: white;
+}
+.input-element{
+    width: 100%;
+    height: 28px;
+    padding: 10px;
+    background-color: white;
+    opacity:0.8;
+    color: gray;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.label-class{
+    color: white;
+    font-size: 13px;
+    margin-right: 10px;
+    
+}
+.btn-save{
+    width: 40%;
+    background-color: darkred;
+    opacity: 0.95;
+    color: white;
+}
